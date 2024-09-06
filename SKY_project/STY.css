@@ -1,0 +1,41 @@
+.colorG {
+    background-color: #247e3d;
+    color: aliceblue;
+}
+.currentPage{
+    font-weight:bold;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: inherit; /* Prevents color change on hover */
+    background-color: inherit; /* Ensures no background color change on hover */
+    text-decoration: none; /* Remove underline on hover (if any) */
+}
+
+.colorG .nav-link:focus,
+.colorG .nav-link:active,
+.colorG .nav-link.active {
+    color: inherit; /* Keeps the text color unchanged */
+    background-color: inherit; /* Keeps the background color unchanged */
+    outline: none; /* Removes the blue outline on click */
+    box-shadow: none; /* Removes any shadow or highlight */
+}
+.ml{
+    margin-left: 3%;
+}
+.marginl{
+    margin-left: 8%;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.greenCard{
+    background-color: #247e3d;
+    border-radius :25px 
+}
+.ahmad{
+    width: 80px;
+    height: 80px;
+    margin-bottom:20px ;
+}
